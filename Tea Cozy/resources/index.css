@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    display: inline;
+    border: 1px solid seashell;
+}
+
+header a {
+    align-items: flex-end;
+}
+
+.teatypes li img{
+    height: 200px;
+    width: 300px;
+}
