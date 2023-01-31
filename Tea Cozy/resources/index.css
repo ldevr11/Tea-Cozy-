@@ -10,6 +10,7 @@ h2, h4, h5{
 
 .copyright h5  {
     text-align: left;
+    margin: 20px;
 }
 
 ul {
@@ -22,19 +23,29 @@ header {
     height: 69px;
     width: 100%;
     justify-content: space-between;
+    padding: 9.5px;
 }
 header .teacozylogo {
     height: 50px;
     width: auto;
-    padding: 10px;
+    margin: 10px;
 }
 header .navigation {
     display: inline-flex;
     text-decoration: underline;
+    align-items: center;
+}
+
+header .navigation a {
+    color: white;
+}
+
+header .navigation a:hover {
+    color: lightblue;
 }
 
 header .navigation li {
-    margin-left: 25px;
+    margin: 10px;
 }
 
 .ourmissionbackground {
@@ -43,6 +54,7 @@ header .navigation li {
     width: 1200px;
     display: flex;
     align-items: center;
+    margin: 25px;
 }
 
 #ourmission {
@@ -67,16 +79,28 @@ header .navigation li {
     background-image: url(./img-locations-background.jpg);
     height: 500px;
     width: 1200px;
+    margin: 25px;
 }
 
-.locations {
-    display: inline-flex;
+.locationsbackground #locationsheader {
+    padding-top: 75px;
+    padding-bottom: 15px;
+    
+}
+
+.locationsbackground .locations {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.locations ul {
+.locationsbackground .locations ul {
     margin: 40px;
     background-color: black;
+    width: 300px;
+    height: 300px;      
+}
+
+.locationsbackground .locations li {
+    text-align: center;
 }
