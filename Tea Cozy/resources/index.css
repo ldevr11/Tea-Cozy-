@@ -17,21 +17,20 @@ ul {
 }
 
 header {
-    display: block;
+    display: inline-flex;
     border: 1px solid seashell;
     height: 69px;
     width: 100%;
+    justify-content: space-between;
 }
 header .teacozylogo {
     height: 50px;
     width: auto;
     padding: 10px;
-
 }
 header .navigation {
     display: inline-flex;
     text-decoration: underline;
-    float: right;
 }
 
 header .navigation li {
@@ -42,14 +41,15 @@ header .navigation li {
     background-image: url(./img-mission-background.jpg);
     height: 700px;
     width: 1200px;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 #ourmission {
     background-color: black;
     opacity: 1;
     margin: 0;  
-    align-content: center;
+    width: 100%;
 }
 
 #teatypes {
@@ -67,11 +67,16 @@ header .navigation li {
     background-image: url(./img-locations-background.jpg);
     height: 500px;
     width: 1200px;
-
 }
 
 .locations {
     display: inline-flex;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations ul {
+    margin: 40px;
     background-color: black;
 }
